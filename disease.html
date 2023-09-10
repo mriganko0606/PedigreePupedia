@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<link rel="stylesheet" href="style3.css">
+<body>
+    <div class="hero">
+        
+        <nav id="navbar">
+            
+            <div id="logo">
+                <!-- <img src="logo1.png" alt="lol"> -->
+            </div>
+            <ul>
+                <li class="item"><a  href="main.html">Home</a></li>
+                <li class="item"><a  href="breed.html">Breeds</a></li>
+                <li class="item"><a  href="disease.html">Disease</a></li>
+                <li class="item"><a  href="adopt.html">Adopt</a></li>
+                <li class="item"><a  href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="sections">
+
+            
+            <div class="breed">
+                <h2>Rabies</h2>
+                <p>Symptoms: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>Canine distemper</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>canine Parvo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>Canine Corona</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>Canine Hepatitis</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>Tick Fever</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+            
+            <div class="breed">
+                <h2>Canine Leptospirosis</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, perspiciatis.
+                </p>
+                <p class="jadu">
+                    Treatment: Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error qui ex odit. Mollitia dolorum, perspiciatis numquam quaerat tenetur cupiditate?
+                </p>
+            </div>
+        <div class="container">
+            <h1 id="ho">Fitness Checker</h1>
+            <form id="fitnessForm">
+                <label for="age">Enter your pet's age:</label>
+                <input type="number" id="age" name="age" required><br><br>
+                <label for="weight">Enter your pet's weight (in kg):</label>
+                <input type="number" id="weight" name="weight" required><br><br>
+                <button type="button" onclick="checkFitness()">Check Fitness</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    
+        <script>
+            function checkFitness() {
+                const ageInput = document.getElementById("age").value;
+                const weightInput = document.getElementById("weight").value;
+    
+                if (ageInput >= 2 && weightInput >= 5) {
+                    document.getElementById("result").innerText = "Your pet is fit!";
+                } else {
+                    document.getElementById("result").innerText = "Your pet is not fit.";
+                }
+            }
+        </script>
+        </div>
+            
+            
+    </div>
+    
+</body>
+</html>

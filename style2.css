@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    overflow-x: hidden;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+
+#logo img{
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+
+#navbar ul{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 10px 165px;
+    display: flex;
+    margin-left: 55%;
+    
+    align-items: center;
+    
+
+}
+#navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(243, 237, 237);
+}
+#navbar li a:hover{
+    text-decoration: none;
+    font-size:30px ;
+    color: rgb(182, 166, 42);
+}
+*::before{
+    content: " ";
+    background: url(maxresdefault.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.pic{
+    height: 250px;
+    width: 250px;
+    padding-left: 25px;
+}
+.breed{
+            flex: 0 1 calc(20% - 20px);
+            margin-bottom: 10px;
+            background-color: #dee876;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items:flex-start;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            height: 250px;
+            
+            
+}
+.sections{
+            height: 800px;
+            width: 100%;
+            
+            display: flex;
+            /* flex-direction: column;
+            flex-direction: column-reverse; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            align-items: center;
+}
